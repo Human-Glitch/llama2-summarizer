@@ -34,22 +34,6 @@ Llama2 Summarizer is a Python-based application that utilizes Meta's Llama 2 Lar
 
    Create a `.env` file in the project root and add your configuration settings as needed.
 
-## Usage
-
-1. **Run the Summarizer**:
-
-   ```bash
-   poetry run python main.py --input your_input_file.txt --output summary_output.txt
-   ```
-
-   Replace `your_input_file.txt` with the path to your input text file, and `summary_output.txt` with the desired path for the output summary.
-
-2. **Command-Line Options**:
-
-   - `--input`: Path to the input text file.
-   - `--output`: Path to save the generated summary.
-   - `--model`: (Optional) Specify a different model if available.
-
 ## License
 
 This project is licensed under the Apache License 2.0. See the [LICENSE](https://github.com/Human-Glitch/llama2-summarizer/blob/main/LICENSE) file for details.
